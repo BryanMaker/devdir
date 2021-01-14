@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/bryan/devdir/libtestdir/sfml/build",
+  "command": "/usr/bin/c++   -I/home/bryan/devdir/libtestdir/sfml/.  -g   -o CMakeFiles/game.dir/main.cpp.o -c /home/bryan/devdir/libtestdir/sfml/main.cpp",
+  "file": "/home/bryan/devdir/libtestdir/sfml/main.cpp"
+},
+{
+  "directory": "/home/bryan/devdir/libtestdir/sfml/build",
+  "command": "/usr/bin/c++   -I/home/bryan/devdir/libtestdir/sfml/.  -g   -o CMakeFiles/game.dir/game.cpp.o -c /home/bryan/devdir/libtestdir/sfml/game.cpp",
+  "file": "/home/bryan/devdir/libtestdir/sfml/game.cpp"
+}
+]

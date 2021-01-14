@@ -1,0 +1,30 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x08\x00s\x00f\x00m\x00l)
+
+[CMake]
+Build Directory Count=2
+Current Build Directory Index-Host System=1
+Current Build Directory Index-主机系统=0
+
+[CMake][CMake Build Directory 0]
+Build Directory Path=/home/bryan/devdir/libtestdir/sfml/build
+Build Type=Debug
+CMake Binary=/usr/bin/cmake
+CMake Executable=/usr/bin/cmake
+Environment Profile=
+Extra Arguments=
+Install Directory=/usr/local
+Runtime=主机系统
+
+[CMake][CMake Build Directory 1]
+Build Directory Path=/home/bryan/devdir/libtestdir/sfml/build
+Build Type=Debug
+CMake Binary=/usr/bin/cmake
+CMake Executable=/usr/bin/cmake
+Environment Profile=
+Extra Arguments=
+Install Directory=/usr/local
+Runtime=Host System
+
+[Project]
+VersionControlSupport=kdevgit

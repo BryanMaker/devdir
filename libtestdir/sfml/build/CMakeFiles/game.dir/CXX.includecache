@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bryan/devdir/libtestdir/sfml/game.cpp
+game.hpp
+/home/bryan/devdir/libtestdir/sfml/game.hpp
+
+/home/bryan/devdir/libtestdir/sfml/game.hpp
+SFML/Window.hpp
+-
+SFML/Graphics.hpp
+-
+
+/home/bryan/devdir/libtestdir/sfml/main.cpp
+game.hpp
+/home/bryan/devdir/libtestdir/sfml/game.hpp
+
