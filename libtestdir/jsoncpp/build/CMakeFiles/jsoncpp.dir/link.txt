@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/jsoncpp.dir/jsoncpp.cpp.o  -o jsoncpp /usr/lib/x86_64-linux-gnu/libjsoncpp.so.1.7.4 

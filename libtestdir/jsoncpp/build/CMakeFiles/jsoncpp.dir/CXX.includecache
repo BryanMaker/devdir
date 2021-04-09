@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bryan/devdir/libtestdir/jsoncpp/jsoncpp.cpp
+jsoncpp/json/json.h
+-
+jsoncpp/json/value.h
+-
+fstream
+-
+iostream
+-
+

@@ -14,7 +14,7 @@ CMake Executable=/usr/bin/cmake
 Environment Profile=
 Extra Arguments=
 Install Directory=/usr/local
-Runtime=主机系统
+Runtime=\xe4\xb8\xbb\xe6\x9c\xba\xe7\xb3\xbb\xe7\xbb\x9f
 
 [CMake][CMake Build Directory 1]
 Build Directory Path=/home/bryan/devdir/libtestdir/sfml/build
@@ -25,6 +25,27 @@ Environment Profile=
 Extra Arguments=
 Install Directory=/usr/local
 Runtime=Host System
+
+[Launch]
+Launch Configurations=Launch Configuration 0
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=run
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Arguments=
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x00)
+Dependency Action=Nothing
+EnvironmentGroup=
+Executable=file:///home/bryan/devdir/libtestdir/sfml
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Project Target=sfml,game
+Use External Terminal=false
+Working Directory=
+isExecutable=false
 
 [Project]
 VersionControlSupport=kdevgit

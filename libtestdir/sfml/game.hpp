@@ -1,9 +1,10 @@
-#include <SFML/Window.hpp>
-#include <SFML/Graphics.hpp>
+#ifndef GAME
+#define GAME
+#include "libsfml.hpp"
 
 class Game
 {
-  public:
+public:
     // = delete:刪除C++類默認的拷貝構造函數以及拷貝賦值運算符
     Game(const Game&) = delete; 
     Game& operator=(const Game&) = delete;
@@ -11,7 +12,7 @@ class Game
 
     void run();
     
-  private: 
+private:
     // 動態時間步長
     void run1();
     // 固定時間步長
@@ -28,3 +29,4 @@ class Game
     sf::RenderWindow _window;
 	  sf::CircleShape _player;
 };
+#endif
