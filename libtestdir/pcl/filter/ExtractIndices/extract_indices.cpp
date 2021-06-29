@@ -4,9 +4,9 @@
 #include <pcl/io/pcd_io.h>
 #include <pcl/point_types.h>
 #include <pcl/sample_consensus/method_types.h> // 样本共识
-#include <pcl/sample_consensus/method_types.h>
+#include <pcl/sample_consensus/model_types.h>
 #include <pcl/segmentation/sac_segmentation.h> // sac(样本共识)分割
-#include <pcl/filters/voxel_grid.h> // 稀疏程度过滤器
+#include <pcl/filters/voxel_grid.h> // 网格过滤器
 #include <pcl/filters/extract_indices.h> // 提取索引
 #include <thread>
 #include "../../tools/PCLPCDViewer.h"

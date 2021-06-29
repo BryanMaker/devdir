@@ -39,7 +39,7 @@ int main()
     viewer1 = rgbVis(cloudFilteredRGB);
 
     while (!viewer->wasStopped()
-            && !viewer->wasStopped())
+            && !viewer1->wasStopped())
     {
         viewer->spinOnce(100);
         viewer1->spinOnce(100);

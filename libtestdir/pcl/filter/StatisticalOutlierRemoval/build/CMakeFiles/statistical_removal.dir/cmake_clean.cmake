@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/statistical_removal.dir/statistical_removal.cpp.o"
   "CMakeFiles/statistical_removal.dir/home/bryan/devdir/libtestdir/pcl/tools/PCLPCDViewer.cpp.o"
-  "statistical_removal.pdb"
+  "CMakeFiles/statistical_removal.dir/statistical_removal.cpp.o"
   "statistical_removal"
+  "statistical_removal.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
